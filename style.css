@@ -1,0 +1,38 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#reset-btn {
+    margin: 1rem;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 602px;
+    height: 602px;
+    margin: auto;
+}
+
+.grids {
+    width: 600px;
+    height: 600px;
+    margin: auto;   
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px;
+}
+
+.grid {
+    background-color: white;
+}
