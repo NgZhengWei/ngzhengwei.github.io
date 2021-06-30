@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
     <h1 id="title">Etch-a-Sketch</h1>
-    <button id="reset-btn">Reset</button>
-    <div class="background">
-        <div class="grids"></div>
+    <p>Hover your cursor to sketch over the grids with random colors! (hovering over the same square darkens it by 1/10th of a shade - 10 hovers gets you pitch black!)</p>
+    <button id="reset-btn" class="btn btn-primary">Change Grid Dimension</button>
+    <div class="container">
+        <div class="background">
+            <div class="content">
+                <div class="grids"></div>
+            </div>
+        </div>
     </div>
     
     
